@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hoja de vida profesional de Michael Jeremy Morrón Mazzilli, Analista de Soporte TI L2 bilingüe especializado en ITIL, redes, ERP/SAP, automatización y soporte técnico avanzado.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'none'; script-src 'self' 'nonce-portfolio-theme-init'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src 'self' data: blob:; connect-src 'self'; upgrade-insecure-requests">
+    <title>Michael Morrón | Hoja de Vida Profesional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script nonce="portfolio-theme-init">
+        try {
+            const savedTheme = localStorage.getItem("portfolio-theme");
+            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+                document.documentElement.dataset.theme = "dark";
+            }
+        } catch (error) {
+            document.documentElement.dataset.theme = "";
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido" data-i18n="skipLink">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+        <a class="brand" href="#inicio" aria-label="Inicio" data-i18n-aria-label="homeAria">
+            <img src="IMAGENES/PP.jpg" alt="Foto de Michael Morrón" data-i18n-alt="profilePhotoAlt">
+        </a>
+
+        <div class="nav-backdrop" data-nav-backdrop hidden></div>
+        <nav class="main-nav" data-nav aria-label="Navegación principal" data-i18n-aria-label="mainNavAria">
+            <a href="#perfil" data-i18n="navProfile">Perfil</a>
+            <a href="#experiencia" data-i18n="navExperience">Experiencia</a>
+            <a href="#habilidades" data-i18n="navSkills">Habilidades</a>
+            <a href="#formacion" data-i18n="navEducation">Formación</a>
+            <a href="#aspiraciones" data-i18n="navGoals">Aspiraciones</a>
+            <a href="#contacto" data-i18n="navContact">Contacto</a>
+            <button class="theme-toggle nav-theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" data-theme-toggle>
+                <span class="theme-toggle-track" aria-hidden="true">
+                    <span class="theme-toggle-thumb">
+                        <i class="fa-solid fa-sun"></i>
+                    </span>
+                </span>
+                <span class="theme-toggle-label" data-i18n="darkMode">Modo oscuro</span>
+            </button>
+        </nav>
+
+        <div class="header-controls" aria-label="Preferencias" data-i18n-aria-label="preferencesAria">
+            <button class="language-toggle" type="button" aria-label="Cambiar idioma a ingles" aria-pressed="false" data-lang-toggle>
+                <span class="language-toggle-track" aria-hidden="true">
+                    <span class="language-toggle-thumb">
+                        <span data-lang-code>🇪🇸</span>
+                    </span>
+                </span>
+                <span class="language-toggle-label" data-i18n="languageToggle">Español</span>
+            </button>
+
+            <button class="theme-toggle header-theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" data-theme-toggle>
+                <span class="theme-toggle-track" aria-hidden="true">
+                    <span class="theme-toggle-thumb">
+                        <i class="fa-solid fa-sun"></i>
+                    </span>
+                </span>
+            </button>
+        </div>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+    </header>
+
+    <main id="contenido">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="hero-content">
+                <p class="eyebrow" data-i18n="heroEyebrow">Ingeniero de Sistemas | ITIL V4 | CCNA | ERP/SAP</p>
+                <h1 id="hero-title">Michael Jeremy Morrón Mazzilli</h1>
+                <p class="hero-copy" data-i18n="heroCopy">
+                    Analista de Soporte TI L2 bilingüe, enfocado en operación estable, redes corporativas,
+                    ERP/SAP, automatización y atención técnica con cumplimiento de SLA.
+                </p>
+                <div class="hero-actions" aria-label="Acciones principales" data-i18n-aria-label="heroActionsAria">
+                    <a class="btn primary" href="#contacto">
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                        <span data-i18n="contactCta">Contactar</span>
+                    </a>
+                    <button class="btn secondary" type="button" data-download-cv>
+                        <i class="fa-solid fa-download" aria-hidden="true"></i>
+                        <span data-i18n="downloadCv">Descargar CV</span>
+                    </button>
+                    <a class="icon-btn" href="https://github.com/MikeMorron" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Michael Morrón" data-i18n-aria-label="githubAria">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <aside class="hero-panel" aria-label="Resumen profesional" data-i18n-aria-label="summaryAria">
+                <img src="IMAGENES/perfil.jpg" alt="Retrato profesional de Michael Morrón" data-i18n-alt="professionalPortraitAlt">
+                <div>
+                    <span data-i18n="baseLabel">Base</span>
+                    <strong>Medellín, Antioquia</strong>
+                </div>
+            </aside>
+        </section>
+
+        <section class="section" id="perfil" aria-labelledby="perfil-title">
+            <div class="section-heading">
+                <p class="eyebrow"></p>
+                <h2 id="perfil-title" data-i18n="profileTitle">Soporte técnico avanzado con mentalidad operativa.</h2>
+            </div>
+            <div class="profile-grid">
+                <article class="profile-summary">
+                    <p data-i18n="profileP1">
+                        Especialista en administración de identidades y gestión de accesos en entornos ERP/SAP,
+                        diagnóstico de redes corporativas y optimización de servicios bajo el marco ITIL.
+                    </p>
+                    <p data-i18n="profileP2">
+                        Experiencia resolviendo incidentes críticos, manteniendo estándares SOP y cuidando el
+                        cumplimiento estricto de SLA en plataformas internas y ambientes empresariales.
+                    </p>
+                </article>
+                <div class="quick-facts" aria-label="Datos destacados" data-i18n-aria-label="factsAria">
+                    <div>
+                        <strong data-i18n="factYearsValue">5 años</strong>
+                        <span data-i18n="factYearsLabel">experiencia en soporte TI</span>
+                    </div>
+                    <div>
+                        <strong>L2</strong>
+                        <span data-i18n="factL2Label">gestión de incidentes complejos</span>
+                    </div>
+                    <div>
+                        <strong>B2</strong>
+                        <span data-i18n="factEnglishLabel">inglés certificado EF SET</span>
+                    </div>
+                    <div>
+                        <strong data-i18n="factQaValue">10 meses</strong>
+                        <span data-i18n="factQaLabel">participación en QA interno</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="experiencia" aria-labelledby="experiencia-title">
+            <div class="section-heading">
+                <p class="eyebrow"></p>
+                <h2 id="experiencia-title" data-i18n="experienceTitle">Experiencia profesional</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-date" data-i18n="job1Date">Jul 2023 - Jun 2026</div>
+                    <div class="timeline-card">
+                        <h3 data-i18n="job1Title">Analista de Soporte TI L2</h3>
+                        <p class="company">United Ventures COL. | Barranquilla</p>
+                        <ul>
+                            <li data-i18n="job1Item1">Diseño, despliegue y optimización de infraestructura tecnológica y redes corporativas.</li>
+                            <li data-i18n="job1Item2">Automatización de flujos operativos mediante Bash, PowerShell y Batch para reducir tiempos de ejecución.</li>
+                            <li data-i18n="job1Item3">Administración de racks, direccionamiento IP y cableado estructurado con foco en alta disponibilidad.</li>
+                            <li data-i18n="job1Item4">Liderazgo de soporte L2 para plataformas internas, cumplimiento de SLA y estándares SOP.</li>
+                            <li data-i18n="job1Item5">Participación activa en QA para aseguramiento de calidad de software interno durante 10 meses.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-date">2017 - 2020</div>
+                    <div class="timeline-card">
+                        <h3 data-i18n="job2Title">Servicio técnico independiente</h3>
+                        <p class="company">Freelancer | Barranquilla</p>
+                        <ul>
+                            <li data-i18n="job2Item1">Diagnóstico avanzado de hardware y mantenimiento preventivo/correctivo.</li>
+                            <li data-i18n="job2Item2">Administración de sistemas Windows/Linux, instalación limpia de sistemas operativos y recuperación de accesos.</li>
+                            <li data-i18n="job2Item3">Resolución de incidentes críticos de software y gestión de sistemas de archivos.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="habilidades" aria-labelledby="habilidades-title">
+            <div class="section-heading">
+                <p class="eyebrow"></p>
+                <h2 id="habilidades-title" data-i18n="skillsTitle">Habilidades técnicas y operativas</h2>
+            </div>
+
+            <div class="skills-layout">
+                <article class="skill-group">
+                    <i class="fa-solid fa-server" aria-hidden="true"></i>
+                    <h3 data-i18n="skillSystemsTitle">Sistemas</h3>
+                    <p data-i18n="skillSystemsCopy">Active Directory, Linux, Windows, Office 365, administración de accesos y soporte de sistemas operativos.</p>
+                </article>
+                <article class="skill-group">
+                    <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+                    <h3 data-i18n="skillNetworkTitle">Redes y seguridad</h3>
+                    <p data-i18n="skillNetworkCopy">CCNA, VLAN, DMZ, firewall, direccionamiento IP, diagnóstico de redes corporativas y cableado estructurado.</p>
+                </article>
+                <article class="skill-group">
+                    <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+                    <h3 data-i18n="skillToolsTitle">Gestión y herramientas</h3>
+                    <p data-i18n="skillToolsCopy">JIRA, SAP, SQL básico, gestión de incidentes, documentación SOP y seguimiento de SLA.</p>
+                </article>
+                <article class="skill-group">
+                    <i class="fa-solid fa-gears" aria-hidden="true"></i>
+                    <h3 data-i18n="skillAutomationTitle">Automatización y datos</h3>
+                    <p data-i18n="skillAutomationCopy">ITIL V4, N8N, Bash, PowerShell, Batch, flujos operativos y mejora continua de procesos.</p>
+                </article>
+            </div>
+
+            <div class="languages-container" aria-label="Idiomas" data-i18n-aria-label="languagesAria">
+                <div class="language-card">
+                    <div class="language-info">
+                        <span class="language-name" data-i18n="spanishName">Español</span>
+                        <span class="language-level" data-i18n="nativeLevel">Nativo</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="language-card">
+                    <div class="language-info">
+                        <span class="language-name" data-i18n="englishName">Inglés</span>
+                        <span class="language-level" data-i18n="b2Level">B2 Intermedio</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="language-card">
+                    <div class="language-info">
+                        <span class="language-name" data-i18n="japaneseName">Japonés</span>
+                        <span class="language-level" data-i18n="n5Level">N5 Básico</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 30%;"></div>
+                    </div>
+                </div>
+                <div class="language-card">
+                    <div class="language-info">
+                        <span class="language-name" data-i18n="italianName">Italiano</span>
+                        <span class="language-level" data-i18n="a2Level">A2 Básico</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="formacion" aria-labelledby="formacion-title">
+            <div class="section-heading">
+                <p class="eyebrow"></p>
+                <h2 id="formacion-title" data-i18n="educationTitle">Formación académica y certificaciones</h2>
+            </div>
+
+            <div class="credential-grid">
+                <article>
+                    <h3>Universidad Libre</h3>
+                    <p data-i18n="degree">Ingeniería de Sistemas</p>
+                    <p data-i18n="degreeArea">Informática y telecomunicaciones</p>
+                </article>
+                <article>
+                    <h3 data-i18n="englishCertTitle">Certificación de inglés</h3>
+                    <p>EF SET - Nivel B2</p>
+                </article>
+                <article>
+                    <h3 data-i18n="ciscoTitle">Certificaciones Cisco Academy</h3>
+                    <p data-i18n="ciscoCopy">CCNA, seguridad de terminales, soporte de sistemas operativos y hardware, bases de ciberseguridad y defensa en la red.</p>
+                </article>
+                <article>
+                    <h3 data-i18n="supportTrainingTitle">Soporte y atención IT</h3>
+                    <p data-i18n="supportTrainingCopy">Soporte de sistemas operativos, mejora de equipos, inglés para IT y atención al usuario.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="aspiraciones" aria-labelledby="aspiraciones-title">
+            <div class="section-heading">
+                <p class="eyebrow"></p>
+                <h2 id="aspiraciones-title" data-i18n="goalsTitle">Aspiraciones profesionales</h2>
+            </div>
+            <div class="aspirations-grid">
+                <article>
+                    <h3 data-i18n="sysadminGoalTitle">Especialización y SysAdmin</h3>
+                    <p data-i18n="sysadminGoalCopy">
+                        Mi objetivo profesional es especializarme en la administración y gestión de sistemas, orientándome al rol de Administrador de Sistemas (SysAdmin). Me interesa trabajar activamente en áreas de configuración, ensamblaje y mantenimiento de servidores e infraestructura crítica de TI.
+                    </p>
+                </article>
+                <article>
+                    <h3 data-i18n="salaryTitle">Expectativa Salarial</h3>
+                    <p>
+                        <span data-i18n="salaryBefore">Aspiro a una compensación salarial en el rango de</span> <strong>$3.500.000 COP</strong> <span data-i18n="salaryBetween">a</span> <strong>$6.000.000 COP</strong> <span data-i18n="salaryAfter">mensuales, dependiendo de las responsabilidades del cargo, modalidad laboral y beneficios corporativos.</span>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contacto" aria-labelledby="contacto-title">
+            <div class="contact-card">
+                <div>
+                    <p class="eyebrow"></p>
+                    <h2 id="contacto-title" data-i18n="contactTitle">Disponible para roles de soporte TI, operaciones y redes.</h2>
+                    <p data-i18n="contactCopy">
+                        Puedo aportar en mesas de ayuda L2, administración de accesos, infraestructura,
+                        automatización operativa, QA funcional y soporte bilingüe.
+                    </p>
+                </div>
+                <div class="contact-actions">
+                    <a class="contact-link" href="mailto:michaelmorron132@gmail.com">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        <span data-i18n="emailLabel">Email: michaelmorron132@gmail.com</span>
+                    </a>
+                    <a class="contact-link" href="https://wa.me/573016785487" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                        WhatsApp
+                    </a>
+                    <a class="contact-link" href="https://github.com/MikeMorron" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        GitHub
+                    </a>
+                    <button class="btn primary full" type="button" data-download-cv>
+                        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                        <span data-i18n="downloadResume">Descargar hoja de vida</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="download-modal" data-download-modal hidden>
+        <div class="download-modal__backdrop" data-download-close></div>
+        <section class="download-modal__panel" role="dialog" aria-modal="true" aria-labelledby="download-title" aria-describedby="download-description">
+            <button class="download-modal__close" type="button" aria-label="Cerrar" data-download-close data-i18n-aria-label="closeAria">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+            <div class="download-modal__icon" aria-hidden="true">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <h2 id="download-title" data-i18n="downloadTitle">Descarga protegida</h2>
+            <p id="download-description" data-i18n="downloadDescription">Elige la versión que quieres descargar y luego ingresa la contraseña autorizada.</p>
+            <form data-download-form>
+                <fieldset class="version-picker" data-version-picker>
+                    <legend data-i18n="versionLegend">Versión de la hoja de vida</legend>
+                    <label>
+                        <input type="radio" name="resume-version" value="es" checked>
+                        <span data-i18n="versionSpanish">Español</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="resume-version" value="en">
+                        <span data-i18n="versionEnglish">Inglés</span>
+                    </label>
+                </fieldset>
+                <label for="download-password" data-i18n="passwordLabel">Contraseña</label>
+                <div class="password-field">
+                    <input id="download-password" type="password" autocomplete="current-password" required data-download-password>
+                    <button type="button" aria-label="Mostrar contraseña" aria-pressed="false" data-password-toggle data-i18n-aria-label="showPasswordAria">
+                        <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <p class="download-modal__status" aria-live="polite" data-download-status></p>
+                <button class="btn primary full" type="submit" data-download-submit>
+                    <i class="fa-solid fa-unlock-keyhole" aria-hidden="true"></i>
+                    <span data-i18n="unlockDownload">Desbloquear y descargar</span>
+                </button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
